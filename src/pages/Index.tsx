@@ -334,8 +334,13 @@ const Index = () => {
           <motion.div {...staggerContainer} className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <motion.div {...fadeInUp}>
               <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="aspect-[4/5] bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center">
-                  <Icon name="User" className="text-white" size={120} />
+                <div className="aspect-[4/5] relative bg-gradient-to-br from-primary to-primary/80 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=750&fit=crop&auto=format" 
+                    alt="Генеральный директор"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-2">Иванов Сергей Петрович</h3>
@@ -359,8 +364,13 @@ const Index = () => {
             
             <motion.div {...fadeInUp}>
               <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="aspect-[4/5] bg-gradient-to-br from-accent to-accent/80 flex items-center justify-center">
-                  <Icon name="User" className="text-white" size={120} />
+                <div className="aspect-[4/5] relative bg-gradient-to-br from-accent to-accent/80 overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=750&fit=crop&auto=format" 
+                    alt="Технический директор"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-accent/60 to-transparent"></div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-2">Петрова Елена Александровна</h3>
