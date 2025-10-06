@@ -86,7 +86,7 @@ const Index = () => {
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <Icon name="Shield" className="text-white" size={24} />
             </div>
-            <span className="text-2xl font-bold text-primary">RUBOTO</span>
+            <span className="text-2xl font-bold text-primary">VCAM</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
@@ -200,7 +200,7 @@ const Index = () => {
       <section id="about" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div {...fadeInUp} className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">О компании RUBOTO</h2>
+            <h2 className="text-4xl font-bold text-primary mb-4">О компании VCAM</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Мы специализируемся на создании надежных систем безопасности, которые спасают жизни и защищают имущество
             </p>
@@ -298,7 +298,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2 className="text-4xl font-bold text-primary mb-4">Преимущества работы с нами</h2>
-            <p className="text-xl text-muted-foreground">Почему выбирают RUBOTO</p>
+            <p className="text-xl text-muted-foreground">Почему выбирают VCAM</p>
           </motion.div>
           
           <motion.div {...staggerContainer} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
