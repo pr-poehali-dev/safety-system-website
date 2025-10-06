@@ -324,6 +324,67 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="leadership" className="py-20">
+        <div className="container mx-auto px-4">
+          <motion.div {...fadeInUp} className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-primary mb-4">Руководство</h2>
+            <p className="text-xl text-muted-foreground">Профессиональная команда с многолетним опытом</p>
+          </motion.div>
+          
+          <motion.div {...staggerContainer} className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <motion.div {...fadeInUp}>
+              <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="aspect-[4/5] bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center">
+                  <Icon name="User" className="text-white" size={120} />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold mb-2">Иванов Сергей Петрович</h3>
+                  <p className="text-accent font-semibold mb-4">Генеральный директор</p>
+                  <p className="text-muted-foreground mb-3">
+                    Более 15 лет опыта в сфере систем безопасности и противопожарной защиты
+                  </p>
+                  <div className="space-y-2 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <Icon name="GraduationCap" size={16} className="text-accent" />
+                      <span>МГТУ им. Баумана, инженер по пожарной безопасности</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Award" size={16} className="text-accent" />
+                      <span>Сертифицированный специалист МЧС России</span>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </motion.div>
+            
+            <motion.div {...fadeInUp}>
+              <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="aspect-[4/5] bg-gradient-to-br from-accent to-accent/80 flex items-center justify-center">
+                  <Icon name="User" className="text-white" size={120} />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold mb-2">Петрова Елена Александровна</h3>
+                  <p className="text-accent font-semibold mb-4">Технический директор</p>
+                  <p className="text-muted-foreground mb-3">
+                    12 лет опыта проектирования и внедрения сложных систем оповещения
+                  </p>
+                  <div className="space-y-2 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <Icon name="GraduationCap" size={16} className="text-accent" />
+                      <span>МЭИ, инженер-проектировщик систем безопасности</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Award" size={16} className="text-accent" />
+                      <span>Эксперт по ГОСТ Р и международным стандартам</span>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
       <section id="portfolio" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div {...fadeInUp} className="text-center mb-16">
